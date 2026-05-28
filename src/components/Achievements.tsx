@@ -62,9 +62,7 @@ export default function Achievements() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 whileHover={{ y: -6, scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={() => setSelected(ach)}
-                className={`group cursor-pointer rounded-2xl border ${c.border} ${dark ? 'bg-gray-800/60' : 'bg-gray-50'} p-5 shadow-lg hover:shadow-xl transition-all`}
+                className={`group rounded-2xl border ${c.border} ${dark ? 'bg-gray-800/60' : 'bg-gray-50'} p-5 shadow-lg hover:shadow-xl transition-all`}
               >
                 <div className="flex items-start gap-4 mb-4">
                   <div className={`w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 ${c.iconBg} group-hover:scale-110 transition-transform`}>
